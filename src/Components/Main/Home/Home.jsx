@@ -28,7 +28,7 @@ const Home = () => {
           <Chart />
         </div>
       </div>
-      {/* suggestion section */}
+      {/* proposal section */}
       <div className="flex flex-row  mx-5 mt-10 ">
         {/* <GmailBox /> */}
         <Proposal />
