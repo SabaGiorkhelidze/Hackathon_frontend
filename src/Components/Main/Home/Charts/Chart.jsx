@@ -13,15 +13,15 @@ import {
 const Chart = () => {
   
   return (
-    <div>
+    <div className="">
       <LineChart
-        width={1000}
-        height={400}
+        width={800}
+        height={300}
         data={data}
         margin={{
-          top: 5,
-          right: 30,
-          left: 20,
+          top:10,
+          right: 0,
+          left: 10,
           bottom: 5,
         }}
       >

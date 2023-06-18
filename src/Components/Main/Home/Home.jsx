@@ -33,6 +33,7 @@ const Home = () => {
         {/* <GmailBox /> */}
         <Proposal />
       </div>
+
     </div>
   );
 };

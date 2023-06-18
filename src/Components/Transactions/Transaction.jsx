@@ -15,11 +15,12 @@ const Transaction = () => {
         .then((response) => response.json())
         .then((responseData) => {
           const dataArray = Object.values(responseData);
+          console.log(dataArray)
           setData(dataArray);
-          console.log(dataArray);
+          // console.log(dataArray);
         })
         .catch((error) => {
-          console.error(error);
+          // console.error(error);
         });
     };
 
