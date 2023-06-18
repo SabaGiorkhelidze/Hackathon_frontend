@@ -19,7 +19,7 @@ const SideNav = () => {
           <Link to={'/'}>
             <BiHomeAlt2 className="text-3xl" />
           </Link>
-          <Link>
+          <Link to={'/Stats'}>
             <BiStats className="text-3xl" />
           </Link>
           <Link>
