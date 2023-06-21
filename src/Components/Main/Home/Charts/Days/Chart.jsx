@@ -1,5 +1,5 @@
 import React from "react";
-import data from "./chartData";
+import daysdata from "./daysdata";
 import {
   LineChart,
   Line,
@@ -11,13 +11,12 @@ import {
   ResponsiveContainer,
 } from "recharts";
 const Chart = () => {
-  
   return (
     <div className="">
       <LineChart
         width={800}
-        height={300}
-        data={data}
+        height={350}
+        data={daysdata}
         margin={{
           top:10,
           right: 0,
@@ -34,11 +33,11 @@ const Chart = () => {
         <Line
           yAxisId="left"
           type="monotone"
-          dataKey="pv"
+          dataKey="income"
           stroke="#8884d8"
           activeDot={{ r: 8 }}
         />
-        <Line yAxisId="right" type="monotone" dataKey="uv" stroke="#82ca9d" />
+        <Line yAxisId="right" type="monotone" dataKey="expense" stroke="#82ca9d" />
       </LineChart>
     </div>
   );
